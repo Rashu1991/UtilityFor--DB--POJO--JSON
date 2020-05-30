@@ -1,0 +1,44 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"phone": 784211,
+			"name": "ABC",
+			"city": "testCity1",
+			"state": "testState1",
+			"country": "testCounrty1"
+		},
+		{
+			"id": 2,
+			"phone": 908722,
+			"name": "DEF",
+			"city": "testCity2",
+			"state": "testState2",
+			"country": "testCounrty2"
+		},
+		{
+			"id": 3,
+			"phone": 112345,
+			"name": "GHI",
+			"city": "testCity3",
+			"state": "testState3",
+			"country": "testCounrty2"
+		},
+		{
+			"id": 4,
+			"phone": 908761,
+			"name": "JKL",
+			"city": "testCity4",
+			"state": "testState4",
+			"country": "testCounrty1"
+		},
+		{
+			"id": 5,
+			"phone": 191731,
+			"name": "MNO",
+			"city": "testCity5",
+			"state": "testState5",
+			"country": "testCounrty1"
+		}
+	]
+}
