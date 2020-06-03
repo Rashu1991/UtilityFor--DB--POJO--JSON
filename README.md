@@ -9,7 +9,8 @@ Secondly, we need to convert the db results to plain old java object format.
 Third, have to convert the pojo object to json(javascript object notation - the format or the data communicator or the object used in API's)
 
 ------------------------------
-Code Description
+Code Description -
+
 There are in total three classes:
 1. DatabaseConnection.java - under src/test/java - which is based on Singletion Design Pattern, it will always return a single instance of
 connection object
