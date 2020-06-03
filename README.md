@@ -11,7 +11,7 @@ Third, have to convert the pojo object to json(javascript object notation - the 
 ------------------------------
 Code Description -
 
-There are in total three classes:
+There are total three classes:
 1. DatabaseConnection.java - under src/test/java - which is based on Singletion Design Pattern, it will always return a single instance of
 connection object
 2. RetrieveDataFromDB_JDBC.java - under src/test/java - this class will take the connection from DataBaseConnection class execute the query to
@@ -23,6 +23,6 @@ the database, fetch the results, convert them in to pojo format and then to json
 How to Use it?
 
 1. clone the project in to your workspace.
-2. Import the project in to IDE.
+2. Import the project in to any IDE.
 3. Run the RetrieveDataFromDB_JDBC.java and see the results in file named "user.json".
 
