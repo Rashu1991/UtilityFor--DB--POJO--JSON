@@ -12,10 +12,8 @@ Third, have to convert the pojo object to json(javascript object notation - the 
 Code Description -
 
 There are total three classes:
-1. DatabaseConnection.java - under src/test/java - which is based on Singletion Design Pattern, it will always return a single instance of
-connection object
-2. RetrieveDataFromDB_JDBC.java - under src/test/java - this class will take the connection from DataBaseConnection class execute the query to
-the database, fetch the results, convert them in to pojo format and then to json format.
+1. DatabaseConnection.java - under src/test/java - which is based on Singleton Design Pattern, it will always return a single instance of connection object
+2. RetrieveDataFromDB_JDBC.java - under src/test/java - this class will take the connection from DataBaseConnection class execute the query to the database, fetch the results, convert them in to pojo format and then to json format.
 3. User.java - This class create the pojo of User details fetch from the database and uses getter/setter methods for the same.
 
 ------------------------------
