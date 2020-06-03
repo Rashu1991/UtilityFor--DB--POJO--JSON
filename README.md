@@ -22,7 +22,7 @@ the database, fetch the results, convert them in to pojo format and then to json
 
 How to Use it?
 
-1. clone the project in to your workspace.
+1. Clone the project in to your workspace.
 2. Import the project in to any IDE.
 3. Run the RetrieveDataFromDB_JDBC.java and see the results in file named "user.json".
 
