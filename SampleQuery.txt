@@ -1,0 +1,27 @@
+Create Table UserInfo(
+
+Id int,
+Name nvarchar(250),
+Phone int,
+City nvarchar(250),
+State nvarchar(250),
+Country nvarchar(250)
+);
+
+insert into UserInfo
+values (1,'ABC',784211,'testCity1','testState1','testCounrty1');
+
+insert into UserInfo
+values (2,'DEF',908722,'testCity2','testState2','testCounrty2');
+
+insert into UserInfo
+values (3,'GHI',112345,'testCity3','testState3','testCounrty2');
+
+insert into UserInfo
+values (4,'JKL',908761,'testCity4','testState4','testCounrty1');
+
+insert into UserInfo
+values (5,'MNO',191731,'testCity5','testState5','testCounrty1');
+
+
+select * from UserInfo;
