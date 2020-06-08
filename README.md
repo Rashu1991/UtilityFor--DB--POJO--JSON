@@ -10,8 +10,9 @@ Third, have to convert the pojo object to json(javascript object notation - the 
 ------------------------------
 Prerequisites - 
 One has to have any database before using these utility. Below some urls to download databases:
-1. https://dev.mysql.com/downloads/installer/ - MySqlDb for different OS are given, please install as per the configuration
+1. https://dev.mysql.com/downloads/installer/ - MySqlDb
 2. https://www.oracle.com/database/technologies/112010-win64soft.html - oracle db
+(Please install the database as per system configuration)
 3. Install jdbc driver for the particular database in use.
 4. set the path for dll file - Go to auth folder, it will be generated once the jdbc is intalled, there will be ".dll" depending upon
 system bit configuration, copy the dll file, place it in java/bin folder directory path will be something like ("C:\Program      Files\Java\jdk1.8.0_201\bin").
