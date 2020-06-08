@@ -15,7 +15,7 @@ One has to have any database before using these utility. Below some urls to down
 3. Install jdbc driver for the particular database in use.
 4. set the path for dll file - Go to auth folder, it will be generated once the jdbc is intalled, there will be ".dll" depending upon
 system bit configuration, copy the dll file, place it in java/bin folder directory path will be something like ("C:\Program      Files\Java\jdk1.8.0_201\bin").
-
+5. Example query to use is given in SampleQueryFile.
 ------------------------------
 Code Description -
 
